@@ -1,6 +1,6 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: The Dynamic Watermarking Method for the Cybersecurity of the Tennessee Eastman Process Control System
+summary: A cyber attack detection method for Tennessee Eastman Process
 tags:
   - Deep Learning
 date: '2016-04-27T00:00:00Z'
@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: pdf
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: Paper
+    url: https://ieeexplore.ieee.org/abstract/document/10441912
 url_code: ''
 url_pdf: ''
 url_slides: ''
