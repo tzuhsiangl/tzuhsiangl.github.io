@@ -3,7 +3,7 @@ title: The Dynamic Watermarking Method for the Cybersecurity of the Tennessee Ea
 summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
 tags:
   - Deep Learning
-date: '2016-04-27T00:00:00Z'
+date: '2023-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
