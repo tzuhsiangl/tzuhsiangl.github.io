@@ -1,6 +1,6 @@
 ---
 title: The Dynamic Watermarking Method for the Cybersecurity of the Tennessee Eastman Process Control System
-summary: A cyber attack detection method for Tennessee Eastman Process
+summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
 tags:
   - Deep Learning
 date: '2016-04-27T00:00:00Z'
