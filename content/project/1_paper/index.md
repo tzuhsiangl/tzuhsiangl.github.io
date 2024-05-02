@@ -58,6 +58,12 @@ $$
 $$
 
 
+**Result**
+
+The following an example of noise injection attack. At time 150hr, a random noise will be added to the output measurement. This attack might not cause instability to the system, but it will reduce the efficiency of the system.
+![noise](m1_noise_value.png)
+The following are the value of the watermark tests. As we can see the value exceed the threshold after the attack, which will be classified as detected.
+![tests](m1_armax_tests.png)
 
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+
