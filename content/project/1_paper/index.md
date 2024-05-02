@@ -46,6 +46,7 @@ However, the output in the figure below is not the correct output. It is highly 
 
 Tennessee Eastman Process is a model of an industrial chemical process for developing, studying and evaluating process control technology. The model involves five major unit operations. The relationship between each unit is in the figure at the top. There are 12 control inputs and 41 measurments. 
 
+There
 
 **ARMAX MODEL**
 
