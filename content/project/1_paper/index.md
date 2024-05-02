@@ -46,12 +46,6 @@ $$
 \end{align*}
 $$
 
-$$
-\begin{aligned}
-FPR = \frac{FP}{N} = \dfrac{FP}{FP+TN}\\
-TPR = \frac{TP}{P} = \dfrac{FP}{FP+FN} 
-\end{aligned}
-$$
 
 
 
