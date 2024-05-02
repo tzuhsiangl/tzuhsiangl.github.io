@@ -34,6 +34,16 @@ Networked control system are vulernable to cyber attack
 ![loop](dw1.png)
 
 
+The idea of dynamic watermarking is very simple. If we add a small signal at input, the output will be affected. By checking whether the chagne of the output is corrsponding to the small signal we added, we can tell whether the signal is authentic. Let's see a simple example. The watermark will be added to the control input signal and the signal will become watermarked input. 
+
+![wm](wm_input.png)
+
+The figure below is a pair of watermarked input and system output. As we can see, the output change does follows the change of the watermarked input.
+![correct](correct_output.png)
+
+However, the output in the figure below is not the correct output. It is highly likely that the output measurment has been modified or there is something wrong with the system.
+![wrong](wrong_output.png)
+
 Tennessee Eastman Process is a model of an industrial chemical process for developing, studying and evaluating process control technology. The model involves five major unit operations. The relationship between each unit is in the figure at the top. There are 12 control inputs and 41 measurments. 
 
 
