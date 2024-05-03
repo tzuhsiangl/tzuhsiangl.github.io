@@ -1,8 +1,8 @@
 ---
 title: 'ID Matching for Autonomous Vehicle'
-summary: ""
+summary: " "
 tags:
-  - Deep Learning
+  - 
 date: '2022-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -41,8 +41,12 @@ There are four autonomous vehicle in the platoon in the figure above. Each one o
 
 The method of how to identify a car in a platoon is the following: we added a small signal in the control input and use a road side sensor to capture the movement of the car. The movement can be capture either by camera or radar. For example, if we send the commend to car ID 21 to move slightly left, then the car that moves left in the platoon will be car 21. By doing so,we can identify relative location of each car in the platoon.
 
-The experiment of this project is use an autonomous vechile and a road side radar to prove that this method works. Before we do the experiment in the field, I ran a simulation first. The autonomous vechile we used is a Lincoln MKZ modified by Dataspeed, which is in the picture at the top. The vehicle includes a pair of lidars, a camera, a radar, a high-precision GPS, and an IMU. A Linux-based rugged PC is used for interfacing with the vehicle. The primary means of message passing and communication is achieved through the robot operating system (ROS).
+The experiment of this project is use an autonomous vechile and a road side radar to prove that this method works. The autonomous vechile we used is a Lincoln MKZ modified by Dataspeed, which is in the picture at the top. The vehicle includes a pair of lidars, a camera, a radar, a high-precision GPS, and an IMU. A Linux-based rugged PC is used for interfacing with the vehicle. The primary means of message passing and communication is achieved through the robot operating system (ROS). The simulation allows me to get familiar to the system. Before we do the experiment in the field, I ran a simulation first. The simulator has been provided by the Dataspeed. The structure of the simulator is same as the system in real MKZ except the control commend is being send to the Gazebo and visualize in rviz. The configuration of the car and sensors has been provided. Based on the simulator they provided, I implement our controller to the simulator. The picure below is a screenshot of the simulation.
 
 ![sim](sim.PNG)
 
+The radar that we used is in the figure below. It is a traffic radar from Smartmicro. It can provide the information of position, speed, and heading of the vehicle.
+
 ![sim](radar.PNG)
+
+This project is now being writing to a paper. More details will be shared after the paper is being published.
