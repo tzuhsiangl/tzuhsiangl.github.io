@@ -89,7 +89,7 @@ This model implies that the output at the next time step is a linear combination
 
 **Result**
 
-Consider the following example of a noise injection attack. At time 150 hr, random noise is added to the output measurement. While this attack may not cause system instability, it does reduce system efficiency.
+Consider the following example of a noise injection attack. At time 150 hr, random noise is added to the output measurement. While this attack may not cause system instability, it does reduce system efficiency. The reported measurment in the figure below is the $z(t)$ and the actual measurment is $x(t)$. Before 150hr $z(t)\equiv x(t)$, and after the attack started, these two values are different.
 ![noise](m1_noise_value.png)
 The following values represent the results of the watermark tests. As shown, the values exceed the threshold after the attack, indicating detection.
 ![tests](m1_armax_tests.png)

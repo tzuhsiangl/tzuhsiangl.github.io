@@ -1,6 +1,6 @@
 ---
 title: 'ID Matching for Autonomous Vehicle'
-summary: Venkata Siva Santosh Ganji, <ins>Tzu-Hsiang Lin</ins>, Francisco A Espinal, P. R. Kumar
+summary:
 tags:
   - Deep Learning
 date: '2022-04-27T00:00:00Z'
