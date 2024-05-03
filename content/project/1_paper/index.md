@@ -83,12 +83,12 @@ If the value of one of the test exceed the predifined threshold, then the sensor
 In order to perform the watermark tests presented above, the model of the system is needed. Here, the ARMAX model has been used. It can presented in the following form
 $$
  \begin{align*}
-    y(k+1) &= \sum_{i=0}^{p}\alpha_iy(k-i)+ \sum_{i=0}^{q}\beta_iu(k-i-d+1)\\\\\\
+    x(k+1) &= \sum_{i=0}^{p}\alpha_ix(k-i)+ \sum_{i=0}^{q}\beta_iu(k-i-d+1)\\\\\\
     &\underbrace{+ \sum_{i=0}^r \gamma_i w(k-i)+ w(k+1).}_{\text{ colored noise}}
 \end{align*}
 $$
 
-The Extended Least Square has been used to fit the model to get the coeffient of $\alpha, \beta$ and $\gamma$.
+It can be think as the output at next time step will be the linear combination of past and current output, past and current inputs, and past and current noise. The noise is being called colored noise is because of that the noise at each time is not independent to the past. Since Tennessee Eastam process is a complicated system, ARMAX model can describe the system better than ARX model. The Extended Least Square has been used to fit the model to get the coeffient of $\alpha, \beta$ and $\gamma$.
 
 
 **Result**
