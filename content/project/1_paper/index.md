@@ -83,7 +83,7 @@ If the value of one of the test exceed the predifined threshold, then the sensor
 In order to perform the watermark tests presented above, the model of the system is needed. Here, the ARMAX model has been used. It can presented in the following form
 $$
  \begin{align*}
-    x(k+1) &= \sum_{i=0}^{p}\alpha_ix(k-i)+ \sum_{i=0}^{q}\beta_iu(k-i-d+1)\\\\\\
+    x(k+1) &= \sum_{i=0}^{p}\alpha_ix(k-i)+ \sum_{i=0}^{q}\beta_iu(k-i)\\\\\\
     &\underbrace{+ \sum_{i=0}^r \gamma_i w(k-i)+ w(k+1).}_{\text{ colored noise}}
 \end{align*}
 $$
