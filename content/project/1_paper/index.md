@@ -99,4 +99,6 @@ The following are the value of the watermark tests. As we can see the value exce
 ![tests](m1_armax_tests.png)
 
 
+Here I only provide some simplified concept of the paper. If you want to know more detail, please check the paper. The link is at the top of the page.
+
 
