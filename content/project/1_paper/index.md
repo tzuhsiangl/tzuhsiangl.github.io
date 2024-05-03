@@ -71,21 +71,24 @@ $z(t)$ is the value that we received. If the system is honest, $x(t)\equiv z(t)$
 
 $$
 \begin{align*}
-    x(t+1)-ax(t)-bg_t(z^t)&-be(t)=w(t+1)\sim N(0,\sigma_w^2)\\\\\\
-    x(t+1)-ax(t)-bg_t(z^t)=& be(t)+w(t+1)\sim N(0,b^2\sigma_e^2+\sigma_w^2)
+    \lim_{T\rightarrow\infty}\frac{1}{T} \sum_{k=0}^{T-1}&(z(k+1)-az(k)-bg_k(z^k)-be(k))^2=\sigma_w^2\\\\\\
+    \lim_{T\rightarrow\infty}\frac{1}{T} \sum_{k=0}^{T-1}&(z(k+1)-az(k)-bg_k(z^k))^2=b^2\sigma_e^2+\sigma_w^2
 \end{align*}
 $$
 
-
+If the value of one of the test exceed the predifined threshold, then the sensor is not honest.
 
 **ARMAX MODEL**
 
+In order to perform the watermark tests presented above, the model of the system is needed. Here, the ARMAX model has been used. It can presented in the following form
 $$
  \begin{align*}
     y(k+1) &= \sum_{i=0}^{p}\alpha_iy(k-i)+ \sum_{i=0}^{q}\beta_iu(k-i-d+1)\\\\\\
     &\underbrace{+ \sum_{i=0}^r \gamma_i w(k-i)+ w(k+1).}_{\text{ colored noise}}
 \end{align*}
 $$
+
+The Extended Least Square has been used to fit the model to get the coeffient of $\alpha, \beta$ and $\gamma$.
 
 
 **Result**
