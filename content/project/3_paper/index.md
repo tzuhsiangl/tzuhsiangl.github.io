@@ -16,7 +16,7 @@ links:
   - icon: pdf
     icon_pack: fab
     name: Paper
-    url: https://ieeexplore.ieee.org/abstract/document/10441912
+    url: https://ieeexplore.ieee.org/document/9352816
 url_code: ''
 url_pdf: ''
 url_slides: ''
