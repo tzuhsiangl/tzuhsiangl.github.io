@@ -32,11 +32,29 @@ url_video: ''
 
 Networked cyber-physical systems core of critical infrastructures such as process industries, energy systems, and transportation systems. However, as several recent incidents have shown, sensors or networks carrying sensor measurements can be compromised. It can make the system misbehave.  Since the infrastructure systems are safety and economy critical, it is important to detect such attacks. The Dynamic Watermarking is one of the method.
 
+**Tennessee Eastman Process**
+
+Tennessee Eastman Process is a model of an industrial chemical process for developing, studying and evaluating process control technology. The model involves five major unit operations. The relationship between each unit is in the figure at the top. There are 12 control inputs and 41 measurments in the system.
+
+
+
+
  **Dynamic Watermarking**
-The idea of dynamic watermarking is very simple. A closed-loop dynamical system can be described in the figure below. Setpoint is the value that we would like the system to be at. 
+
+A closed-loop dynamical system can be described in the figure below. Setpoint is the value that we would like the system to be at.
 ![loop](dw1.png)
 
-If we add a small signal at input, the output will be affected. By checking whether the chagne of the output is corrsponding to the small signal we added, we can tell whether the signal is authentic. Let's see a simple example. The watermark will be added to the control input signal and the signal will become watermarked input. 
+
+$$
+ \begin{align*}
+      x(t+1)=a&x(t)+bu(t)+w(t+1), w(t)\sim N(0,\sigma_w^2)i.i.d\\\\\\
+      u(t)&=g_t(x^t)+\textcolor{red}{e(t)}, e(t)\sim N(0,\sigma_e^2)i.i.d
+ \end{align*}
+$$
+
+
+
+The idea of dynamic watermarking is very simple. If we add a small signal at input, the output will be affected. Since watermark is known to us not to the attacker, by checking whether the chagne of the output is corrsponding to the watermarked input, we can tell whether the signal is authentic. Let's see a simple example. The figure below is an example of combination of input siganl and watermark signal. 
 
 ![wm](wm_input.png)
 
@@ -46,11 +64,8 @@ The figure below is a pair of watermarked input and system output. As we can see
 However, the output in the figure below is not the correct output. It is highly likely that the output measurment has been modified or there is something wrong with the system.
 ![wrong](wrong_output.png)
 
+The watermark that we added to the system will be a white Gaussian sequence with mean equals to 0 and variance equals to $\sigma^2_e$. By doing so, even through the attacker knows that we are using watermark, they can not predict what are we gonna add next. Moreover, since it's a random signal, the attacker cannot distenguish the watermark and the noise in the system. To detect the attack, there are two tests that being used to check the 
 
-
-
-**Tennessee Eastman Process**
-Tennessee Eastman Process is a model of an industrial chemical process for developing, studying and evaluating process control technology. The model involves five major unit operations. The relationship between each unit is in the figure at the top. There are 12 control inputs and 41 measurments. 
 
 
 
