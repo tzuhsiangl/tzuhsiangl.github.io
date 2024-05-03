@@ -30,11 +30,13 @@ url_video: ''
 #slides: example
 ---
 
-Networked control system are vulernable to cyber attack
+Networked cyber-physical systems core of critical infrastructures such as process industries, energy systems, and transportation systems. However, as several recent incidents have shown, sensors or networks carrying sensor measurements can be compromised. It can make the system misbehave.  Since the infrastructure systems are safety and economy critical, it is important to detect such attacks. The Dynamic Watermarking is one of the method.
+
+ **Dynamic Watermarking**
+The idea of dynamic watermarking is very simple. A closed-loop dynamical system can be described in the figure below. Setpoint is the value that we would like the system to be at. 
 ![loop](dw1.png)
 
-
-The idea of dynamic watermarking is very simple. If we add a small signal at input, the output will be affected. By checking whether the chagne of the output is corrsponding to the small signal we added, we can tell whether the signal is authentic. Let's see a simple example. The watermark will be added to the control input signal and the signal will become watermarked input. 
+If we add a small signal at input, the output will be affected. By checking whether the chagne of the output is corrsponding to the small signal we added, we can tell whether the signal is authentic. Let's see a simple example. The watermark will be added to the control input signal and the signal will become watermarked input. 
 
 ![wm](wm_input.png)
 
@@ -44,9 +46,13 @@ The figure below is a pair of watermarked input and system output. As we can see
 However, the output in the figure below is not the correct output. It is highly likely that the output measurment has been modified or there is something wrong with the system.
 ![wrong](wrong_output.png)
 
+
+
+
+**Tennessee Eastman Process**
 Tennessee Eastman Process is a model of an industrial chemical process for developing, studying and evaluating process control technology. The model involves five major unit operations. The relationship between each unit is in the figure at the top. There are 12 control inputs and 41 measurments. 
 
-There
+
 
 **ARMAX MODEL**
 
