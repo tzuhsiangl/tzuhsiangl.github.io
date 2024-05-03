@@ -41,18 +41,6 @@ Tennessee Eastman Process is a model of an industrial chemical process for devel
 
  **Dynamic Watermarking**
 
-A closed-loop dynamical system can be described in the figure below. Setpoint is the value that we would like the system to be at.
-![loop](dw1.png)
-
-
-$$
- \begin{align*}
-      x(t+1)=a&x(t)+bu(t)+w(t+1), w(t)\sim N(0,\sigma_w^2)i.i.d\\\\\\
-      u(t)&=g_t(x^t)+\textcolor{red}{e(t)}, e(t)\sim N(0,\sigma_e^2)i.i.d
- \end{align*}
-$$
-
-
 
 The idea of dynamic watermarking is very simple. If we add a small signal at input, the output will be affected. Since watermark is known to us not to the attacker, by checking whether the chagne of the output is corrsponding to the watermarked input, we can tell whether the signal is authentic. Let's see a simple example. The figure below is an example of combination of input siganl and watermark signal. 
 
@@ -64,8 +52,29 @@ The figure below is a pair of watermarked input and system output. As we can see
 However, the output in the figure below is not the correct output. It is highly likely that the output measurment has been modified or there is something wrong with the system.
 ![wrong](wrong_output.png)
 
-The watermark that we added to the system will be a white Gaussian sequence with mean equals to 0 and variance equals to $\sigma^2_e$. By doing so, even through the attacker knows that we are using watermark, they can not predict what are we gonna add next. Moreover, since it's a random signal, the attacker cannot distenguish the watermark and the noise in the system. To detect the attack, there are two tests that being used to check the 
+The watermark that we added to the system will be a white Gaussian sequence.. By doing so, even through the attacker knows that we are using watermark, they can not predict what are we gonna add next. Moreover, since it's a random signal, the attacker cannot distenguish the watermark and the noise in the system.
 
+
+Now, let's lool at it in detail.A closed-loop dynamical system can be described in the figure below.
+![loop](dw1.png)
+
+The system can be described as
+
+$$
+ \begin{align*}
+      x(t+1)=a&x(t)+bu(t)+w(t+1), w(t)\sim N(0,\sigma_w^2)i.i.d\\\\\\
+      u(t)&=g_t(x^t)+\textcolor{red}{e(t)}, e(t)\sim N(0,\sigma_e^2)i.i.d
+ \end{align*}
+$$
+
+$z(t)$ is the value that we received. If the system is honest, $x(t)\equiv z(t)$. And the two tests that being used to detect cyberattack are
+
+$$
+\begin{align*}
+    x(t+1)-ax(t)-bg_t(z^t)&-be(t)=w(t+1)\sim N(0,\sigma_w^2)\\\\\\
+    x(t+1)-ax(t)-bg_t(z^t)=& be(t)+w(t+1)\sim N(0,b^2\sigma_e^2+\sigma_w^2)
+\end{align*}
+$$
 
 
 
