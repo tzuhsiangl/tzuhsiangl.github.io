@@ -31,7 +31,7 @@ url_video: ''
 ---
 
 
-*I work on the experiment of this work.*
+*I work on the experiment part of this work.*
 
 The goal of the project is to identify a specific car in a platoon of autonomous vehicles. Let's consider an example to understand why this is necessary.
 
