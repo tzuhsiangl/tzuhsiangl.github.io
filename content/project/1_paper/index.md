@@ -1,5 +1,5 @@
 ---
-title: The Dynamic Watermarking Method for the Cybersecurity of the Tennessee Eastman Process Control System(Click)
+title: The Dynamic Watermarking Method for the Cybersecurity of the Tennessee Eastman Process Control System (Click)
 summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
 tags:
   - Cybersecurity
