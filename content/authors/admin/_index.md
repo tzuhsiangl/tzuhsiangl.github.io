@@ -25,12 +25,13 @@ organizations:
     url: https://www.tamu.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Cyber-Physical System, Cyber-Security and Networked Control System.
+#bio: My research interests include Cyber-Physical System, Cyber-Security and Networked Control System.
 
 # Interests to show in About widget
 interests:
   - Cyber-Physical System
   - Cyber-Security
+  - Machine Learning
   #- Information Retrieval
 
 # Education to show in About widget
@@ -38,10 +39,10 @@ education:
   courses:
     - course: PhD in Computer Engineering 
       institution: Texas A&M University
-      year: 2020 - present
+      year: 2021 - present
     - course: M.S. in Computer Engineering 
       institution: Texas A&M University
-      year: 2019 - 2020 (Transfered to PhD)
+      year: 2019 - 2021 (Transfered to PhD)
     - course: B.S. in Electrical Engineering
       institution: National Chung Hsing University 
       year: 2014 - 2018
