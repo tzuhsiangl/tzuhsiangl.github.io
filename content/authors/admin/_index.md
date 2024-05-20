@@ -37,9 +37,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Computer Engineering 
+    - course: PhD in Computer Engineering(First two years as master student) 
       institution: Texas A&M University
-      year: 2021 - present
+      year: 2019 - present
     - course: M.S. in Computer Engineering 
       institution: Texas A&M University
       year: 2019 - 2021 (Transfered to PhD)
