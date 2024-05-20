@@ -88,6 +88,5 @@ highlight_name: true
 
 
 
-I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). I am interested in control, cyber-physical systems, cybersecurity, and machine learning. My research centers on cyber-physical systems and cybersecurity. 
+I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). My research centers on cyber-physical systems and cybersecurity. Working with these systems brings me immense satisfaction as I witness their real-world applications. Despite the challenges posed by the interdisciplinary nature of cyber-physical systems, I embrace the opportunity to learn across various fields. Guided by my advisor's approach of not limiting ourselves to a specific domain, I consider myself a dedicated problem solver.
 
-I received my Bachelor's degree in Electrical Engineering from National Chung Hsing University in 2018.
