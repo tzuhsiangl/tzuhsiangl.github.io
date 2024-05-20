@@ -33,6 +33,8 @@ url_video: ''
 
 *I work on the experiment part of this work.*
 
+**Introduction**
+
 The goal of the project is to identify a specific car in a platoon of autonomous vehicles. Let's consider an example to understand why this is necessary.
 
 ![platoon](platoon.PNG)
@@ -47,5 +49,8 @@ The experiment for this project involves using an autonomous vehicle and a roads
 The radar used in the experiment is shown below. It is a traffic radar from Smartmicro capable of providing information on position, speed, and heading of vehicles.
 
 ![sim](radar.PNG)
+
+
+**Summary**
 
 This project is currently being written up for publication. More details will be shared after the paper is published.

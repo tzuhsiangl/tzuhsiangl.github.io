@@ -95,6 +95,9 @@ The following values represent the results of the watermark tests. As shown, the
 ![tests](m1_armax_tests.png)
 
 
+
+**Summary**
+
 Here, I've provided simplified concepts from the paper. For more details, please refer to the paper linked at the top of the page.
 
 
