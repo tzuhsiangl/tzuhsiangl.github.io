@@ -30,6 +30,9 @@ url_video: ''
 #slides: example
 ---
 
+
+**Introduction**
+
 Networked cyber-physical systems form the core of critical infrastructures, such as process industries, energy systems, and transportation systems. However, as several recent incidents have shown, sensors or networks carrying sensor measurements can be compromised, leading to system misbehavior. Since infrastructure systems are crucial for safety and the economy, detecting such attacks is essential. One method for this is Dynamic Watermarking.
 
 **Tennessee Eastman Process**
@@ -98,6 +101,6 @@ The following values represent the results of the watermark tests. As shown, the
 
 **Summary**
 
-Here, I've provided simplified concepts from the paper. For more details, please refer to the paper linked at the top of the page.
+The Dynamic Watermarking Tests for ARMAX systems proposed appear to be capable of detecting several cyber attacks on the Tennessee Eastman Process. Here, I've provided simplified concepts from the paper. For more details, please refer to the paper linked at the top of the page.
 
 
