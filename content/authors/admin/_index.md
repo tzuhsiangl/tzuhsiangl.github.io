@@ -36,12 +36,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: PhD in Computer Engineering 
+      institution: Texas A&M University
+      year: 2020 - present
     - course: M.S. in Computer Engineering 
       institution: Texas A&M University
-      year: 2020 (Transfered to PhD)
+      year: 2019 - 2020 (Transfered to PhD)
     - course: B.S. in Electrical Engineering
       institution: National Chung Hsing University 
-      year: 2018
+      year: 2014 - 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
