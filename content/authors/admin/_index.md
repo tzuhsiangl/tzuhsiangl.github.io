@@ -40,9 +40,9 @@ education:
     - course: PhD in Computer Engineering
       institution: Texas A&M University
       year: 2019 - present
-    - course: M.S. in Computer Engineering 
-      institution: Texas A&M University
-      year: 2019 - 2021 (Transferred to PhD program midway)
+    #- course: M.S. in Computer Engineering 
+    #  institution: Texas A&M University
+    #  year: 2019 - 2021 (Transferred to PhD program midway)
     - course: B.S. in Electrical Engineering
       institution: National Chung Hsing University 
       year: 2014 - 2018
