@@ -9,7 +9,7 @@ date: '2024-12-17T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by rawpixel on
   focal_point: Smart
 
 links:
