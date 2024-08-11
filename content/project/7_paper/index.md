@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic Watermarking for Cyber-Security of Nonlinear Stocastic Systems'
-summary:<ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
+summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
 tags:
   - Deep Learning
 date: '2024-12-17T00:00:00Z'
