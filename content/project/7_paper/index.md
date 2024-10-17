@@ -1,5 +1,5 @@
 ---
-title: 'Dynamic Watermarking for Cyber-Security of Nonlinear Stocastic Systems'
+title: 'Dynamic Watermarking for Cyber-Security of Nonlinear Stocastic Systems(CDC 2024)'
 summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
 tags:
   - Cybersecurity
@@ -16,7 +16,7 @@ links:
   - icon: pdf
     icon_pack: fab
     name: Paper
-    url: https://dl.acm.org/doi/10.1145/3472716.3472871
+    url: 
 url_code: ''
 url_pdf: ''
 url_slides: ''
