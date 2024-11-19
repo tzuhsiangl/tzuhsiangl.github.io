@@ -15,11 +15,11 @@ publishDate: "2023-04-27T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*2023 Ninth Indian Control Conference"
+publication_short: "ICC"
 
 tags:
 - Source Themes
@@ -49,14 +49,14 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+# projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 <!-- {{% callout note %}}
@@ -141,44 +141,3 @@ The following values represent the results of the watermark tests. As shown, the
 **Summary**
 
 The Dynamic Watermarking Tests for ARMAX systems proposed appear to be capable of detecting several cyber attacks on the Tennessee Eastman Process. Here, I've provided simplified concepts from the paper. For more details, please refer to the paper linked at the top of the page.
-
-
-
-
-
-
-
-
-title: 
-summary: <ins>Tzu-Hsiang Lin</ins>, P. R. Kumar
-tags:
-  - Cybersecurity
-date: ''
-
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-#image:
-#  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
-
-links:
-  - icon: pdf
-    icon_pack: fab
-    name: Paper
-    url: https://ieeexplore.ieee.org/abstract/document/10441912
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-#slides: example
----
-
-
-
