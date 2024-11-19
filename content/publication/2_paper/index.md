@@ -17,7 +17,7 @@ publishDate: "2022-04-27T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["artical-journal"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Wireless Communications"
