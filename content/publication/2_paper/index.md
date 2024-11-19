@@ -20,7 +20,7 @@ publishDate: "2022-04-27T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Wireless Communications"
+publication: "*IEEE Transactions on Wireless Communications"
 publication_short: ""
 
 tags:
