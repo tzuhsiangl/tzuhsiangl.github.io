@@ -74,7 +74,7 @@ social:
   #  link: https://github.com/gcushen
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: www.linkedin.com/in/tzu-hsiang-lin-9b4163190
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -88,5 +88,5 @@ highlight_name: true
 
 
 
-I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). My research centers on cyber-physical systems and cybersecurity. Working with these systems brings me immense satisfaction as I witness their real-world applications. Despite the challenges posed by the interdisciplinary nature of cyber-physical systems, I embrace the opportunity to learn across various fields. Guided by my advisor's approach of not limiting ourselves to a specific domain, I consider myself a dedicated problem solver.
+I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). My research focuses on cyber-physical systems and cybersecurity. I find immense satisfaction in working with these systems, especially when witnessing their real-world applications. While the interdisciplinary nature of cyber-physical systems presents challenges, I embrace the opportunity to learn across diverse fields. Inspired by my advisor's philosophy of not confining ourselves to a single domain, I take pride in being a dedicated problem solver.
 
