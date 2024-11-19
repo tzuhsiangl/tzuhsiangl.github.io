@@ -1,31 +1,41 @@
 ---
-title: 'Unblock : Low complexity transient blockage recovery for mobile mm-wave devices'
-summary: Venkata Siva Santosh Ganji, <ins>Tzu-Hsiang Lin</ins>, Francisco A Espinal, P. R. Kumar
+title: "Unblock : Low complexity transient blockage recovery for mobile mm-wave devices"
+authors:
+- Venkata Siva Santosh Ganji
+- admin
+- Francisco A Espinal
+- P. R. Kumar
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+# date: "2023-04-27T00:00:00Z"
+# doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2021-04-27T00:00:00Z"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["paper-conference"]
+
+# Publication name and optional abbreviated publication name.
+publication: "2021 International Conference on COMmunication Systems & NETworkS,"
+publication_short: "2021 COMSNETS"
+
 tags:
-  - Deep Learning
-date: '2021-04-27T00:00:00Z'
+- 5G mmWave
+featured: false
 
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-  - icon: pdf
-    icon_pack: fab
-    name: Paper
-    url: https://ieeexplore.ieee.org/document/9352816
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-#slides: example
+# links:
+# - name: ""
+#   url: ""
+url_pdf: https://ieeexplore.ieee.org/document/9352816
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: ''
+# url_video: ''
 ---
