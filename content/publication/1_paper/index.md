@@ -18,8 +18,8 @@ publishDate: "2023-04-27T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*2023 Ninth Indian Control Conference"
-publication_short: "ICC"
+publication: "2023 Ninth Indian Control Conference"
+publication_short: ""
 
 tags:
 - Source Themes
