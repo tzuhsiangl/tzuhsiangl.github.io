@@ -20,7 +20,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*IEEE Communication Letter*"
-publication_short: "IEEE Commun. Lett"
+publication_short: "*IEEE Commun. Lett*"
 
 tags:
 - Cognitive Radio
