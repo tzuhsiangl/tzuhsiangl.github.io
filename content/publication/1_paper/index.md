@@ -19,7 +19,7 @@ publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*2023 Ninth Indian Control Conference*"
-publication_short: "*2023 ICC*"
+publication_short: "*ICC 2023*"
 
 tags:
 - Cybersecurity
