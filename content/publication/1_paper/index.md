@@ -3,11 +3,11 @@ title: "The Dynamic Watermarking Method for the Cybersecurity of the Tennessee E
 authors:
 - admin
 - P. R. Kumar
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2023-04-27T00:00:00Z"
-doi: ""
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+# date: "2023-04-27T00:00:00Z"
+# doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-04-27T00:00:00Z"
