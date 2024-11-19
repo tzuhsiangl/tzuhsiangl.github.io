@@ -1,31 +1,41 @@
 ---
 title: 'Silent tracker: in-band beam management for soft handover for mm-wave networks'
-summary: Venkata Siva Santosh Ganji, <ins>Tzu-Hsiang Lin</ins>, Jaewon Kim, P. R. Kumar
+authors:
+- Venkata Siva Santosh Ganji
+- admin
+- Jaewon Kim
+- P. R. Kumar
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+# date: "2023-04-27T00:00:00Z"
+# doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2021-04-27T00:00:00Z"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["paper-conference"]
+
+# Publication name and optional abbreviated publication name.
+publication: "*Proceedings of the SIGCOMM ’21 Poster and Demo Sessions*"
+publication_short: "*SIGCOMM ’21*"
+
 tags:
-  - Deep Learning
-date: '2021-04-27T00:00:00Z'
+- 5G mmWave
+featured: false
 
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-  - icon: pdf
-    icon_pack: fab
-    name: Paper
-    url: https://dl.acm.org/doi/10.1145/3472716.3472871
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-#slides: example
+# links:
+# - name: ""
+#   url: ""
+url_pdf: https://dl.acm.org/doi/10.1145/3472716.3472871
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: ''
+# url_video: ''
 ---
