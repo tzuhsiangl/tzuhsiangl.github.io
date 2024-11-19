@@ -20,8 +20,8 @@ publishDate: "2021-04-27T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "2021 International Conference on COMmunication Systems & NETworkS,"
-publication_short: "2021 COMSNETS"
+publication: "*2021 International Conference on COMmunication Systems & NETworkS*"
+publication_short: "*2021 COMSNETS*"
 
 tags:
 - 5G mmWave
