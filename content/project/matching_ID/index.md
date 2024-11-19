@@ -31,8 +31,6 @@ url_video: ''
 ---
 
 
-![car](feature.PNG)
-
 **Introduction**
 
 The goal of the project is to identify a specific car in a platoon of autonomous vehicles. Let's consider an example to understand why this is necessary.
