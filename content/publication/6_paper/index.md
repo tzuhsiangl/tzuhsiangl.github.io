@@ -2,7 +2,7 @@
 title: A homogeneous multi-radio rendezvous algorithm for cognitive radio networks
 authors:
 - admin
-- Guu-Chang Yang,
+- Guu-Chang Yang
 - Wing C Kwong
 # author_notes:
 # - "Equal contribution"
