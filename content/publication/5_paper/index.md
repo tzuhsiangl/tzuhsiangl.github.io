@@ -1,7 +1,7 @@
 ---
 title: 'Silent tracker: in-band beam management for soft handover for mm-wave networks'
 authors:
-- Venkata Siva Santosh Ganji
+- Santosh Ganji
 - admin
 - Jaewon Kim
 - P. R. Kumar
