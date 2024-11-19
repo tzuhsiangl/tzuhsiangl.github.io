@@ -30,7 +30,7 @@ url_video: ''
 #slides: example
 ---
 
-
+![system](feature.PNG)
 **Introduction**
 
 Networked cyber-physical systems form the core of critical infrastructures, such as process industries, energy systems, and transportation systems. However, as several recent incidents have shown, sensors or networks carrying sensor measurements can be compromised, leading to system misbehavior. Since infrastructure systems are crucial for safety and the economy, detecting such attacks is essential. One method for this is Dynamic Watermarking.
