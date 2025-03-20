@@ -15,7 +15,7 @@ date: "2024-04-16T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["paper-conference"]
+publication_types: ["paper-conference"] 
 
 # Publication name and optional abbreviated publication name.
 publication: "*2024 63rd IEEE Conference on Decision and Control*"
