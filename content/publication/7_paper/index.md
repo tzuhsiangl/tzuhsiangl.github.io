@@ -28,7 +28,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-#url_pdf: https://ieeexplore.ieee.org/abstract/document/10441912
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10886800
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: ''
 # url_poster: ''
