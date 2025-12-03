@@ -29,9 +29,9 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Cyber-Physical System
-  - Cyber-Security
-  - Machine Learning
+  - Robot Learning 
+  - Autonomous Driving
+  - Cyber-Physical Security
   #- Information Retrieval
 
 # Education to show in About widget
@@ -88,5 +88,5 @@ highlight_name: true
 
 
 
-I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). My research focuses on cyber-physical systems and cybersecurity. I find immense satisfaction in working with these systems, especially when witnessing their real-world applications. While the interdisciplinary nature of cyber-physical systems presents challenges, I embrace the opportunity to learn across diverse fields. Inspired by my advisor's philosophy of not confining ourselves to a single domain, I take pride in being a dedicated problem solver.
+I am a Ph.D. student at Texas A&M University advised by Prof. [P. R. Kumar](https://engineering.tamu.edu/electrical/profiles/pkumar.html). My research centers on learning based robotic manipulation, autonomous driving, and the security of cyber physical systems. I am deeply motivated by working with real world systems and seeing algorithms translate into physical actions is both challenging and rewarding. The interdisciplinary nature of these domains often requires stepping outside traditional boundaries, and I have grown to enjoy learning across robotics, machine learning, and system safety. Guided by my advisor’s philosophy of not restricting ourselves to a single discipline, I approach each project with a problem solver mindset and a commitment to building reliable and meaningful systems.
 
