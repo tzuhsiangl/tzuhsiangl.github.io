@@ -1,1 +1,3 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+Source code for Tzu-Hsiang Lin's personal website: https://tzuhsiangl.github.io/
+
+Built from [Jon Barron's website template](https://github.com/jonbarron/jonbarron_website).
